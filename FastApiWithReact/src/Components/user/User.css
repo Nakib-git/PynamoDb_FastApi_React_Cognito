@@ -1,0 +1,118 @@
+.user-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  .form-container {
+    margin: 20px;
+    width: 50%;
+  }
+
+  .list-container {
+    margin: 10px;
+    width: 100%;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  li {
+    margin-bottom: 10px;
+  }
+
+  edit-button {
+    background-color: lightblue;
+    padding: 5px;
+  }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+    text-align: left;
+  }
+
+  .table th {
+    background-color: #f2f2f2;
+  }
+
+  .edit-button {
+    background-color: lightblue;
+    border-radius: 5px;
+    margin: 2px;
+    border-color: lightblue;
+
+  }
+
+  .edit-button:hover {
+    border-color: black;
+  }
+
+  .delete-button {
+    background-color: lightcoral;
+    border-radius: 5px;
+    margin: 2px;
+    border-color: lightcoral;
+
+  }
+
+  .delete-button:hover {
+    border-color: black;
+  }
+
+  .add-button {
+    background-color: lightseagreen;
+    border-radius: 5px;
+    margin: 5px;
+    border-color: lightseagreen;
+    height: 2rem;
+
+  }
+
+  .add-button:hover {
+    border-color: black;
+  }
+
+  .search {
+    margin: 5px;
+
+    label {
+      margin: 5px;
+    }
+
+    input {
+      margin: 5px;
+    }
+  }
+
+  .serach-button {
+    background-color: lightblue;
+    border-radius: 5px;
+    margin: 5px;
+    border-color: lightblue;
+
+  }
+
+  .serach-button:hover {
+    border-color: black;
+  }
+
+  .reload-button {
+    background-color: lightsalmon;
+    border-radius: 5px;
+    margin: 5px;
+    border-color: lightsalmon;
+
+  }
+
+  .reload-button:hover {
+    border-color: black;
+  }
+}

@@ -1,0 +1,10 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* .form-container {
+        margin: 20px;
+        width: 50%;
+    } */
+}

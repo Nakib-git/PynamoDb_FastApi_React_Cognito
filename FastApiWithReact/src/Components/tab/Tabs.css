@@ -1,0 +1,46 @@
+.tabs {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tabs-nav {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.tabs-nav li {
+  margin: 0;
+}
+
+/* Style for active tab button */
+.tabs-nav button.active {
+  background-color: #ddd; /* Adjust background color for active tab */
+  border-bottom: 2px solid #007bff; /* Add a subtle border for active tab */
+}
+
+.tabs-nav button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tabs-nav button:hover {
+  background-color: #e0e0e0;
+}
+
+.tabs-content {
+  padding: 20px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
